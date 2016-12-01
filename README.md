@@ -15,7 +15,8 @@
   完成了 任务1-10， 任务13-36， 任务37-42， 任务 50；
   
   任务五十：demo <http://cofumaster.coding.me/ift50_/>  
-          代码地址 <https://github.com/fankof29/ift50>
+          代码地址 <https://github.com/fankof29/ift50>  
+  个人简历页面： <http://cofumaster.coding.me/self/>
           
 ## 从百度前端学院的训练题目中，学习到的东西有 ：
         HTML: 基本div + css 布局， html语义化， html5常用的动画、canvas、存储等.
