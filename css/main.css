@@ -45,6 +45,7 @@ body {
 	padding: 0 180px;
 	text-align: center;
 	color: #fff;
+	overflow: hidden;
 }
 .section2 h1 {
 	display: none;
@@ -65,7 +66,6 @@ body {
 }
 .section2 .personal_details span{
 	display: inline-block;
-
 	width: 70px;
 	text-align: right;
 }
@@ -78,11 +78,11 @@ body {
 .section2 .individual_skills {
 	margin-left: 150%;
 	height: 70%;
+	width: 50%;
 	text-align: left;
 	font: 16px "Microsoft Yahei";
 	line-height: 20px;
 
-	overflow: hidden;
 }
 .section2 .individual_skills b{
 	font-size: 20px;

@@ -9,11 +9,11 @@ $(function(){
 			
 		},
 		afterLoad:function(anchorLink, index){
-			// if(index == 2) {
-			// 	$('.section2').find('h1').fadeIn(2000);
-			// 	$('.personal_details').animate({margin:"0"},1000);
-			// 	$('.individual_skills').animate({marginLeft:"50%"},1000);
-			// }
+			if(index == 2) {
+				$('.section2').find('h1').fadeIn(2000);
+				$('.personal_details').animate({margin:"0"},1000);
+				$('.individual_skills').animate({marginLeft:"50%"},1000);
+			}
 			if(index == 3) {
 				$('.section3 h1').animate({marginLeft:"0"}, 1000);
 				$('.section3 h3').animate({marginLeft:"0"}, 1000);
@@ -26,12 +26,12 @@ $(function(){
 			}
 		},
 		onLeave: function(index, direction){
-			// if(index == '2') {
-			// 	$('.section2').find('h1').fadeOut(2000);
-			// 	$('.personal_details').animate({margin:"0 0 0 -100%"},1000);
-			// 	$('.individual_skills').animate({marginLeft:"150%"},1000);
+			if(index == '2') {
+				$('.section2').find('h1').fadeOut(2000);
+				$('.personal_details').animate({margin:"0 0 0 -100%"},1000);
+				$('.individual_skills').animate({marginLeft:"150%"},1000);
 
-			// }
+			}
 			if(index == "3") {
 				$('.section3 h1').animate({marginLeft:"-100%"}, 1000);
 				$('.section3 h3').animate({marginLeft:"-100%"}, 1000);
