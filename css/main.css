@@ -32,9 +32,13 @@ body {
 	color: #fff;
 	background-color: rgb(0, 116, 234);
 }
+
+#main_box {
+	font-family: "Microsoft Yahei";
+}
 .section1 { 
 	text-align: center; 
-	font: 70px "Microsoft Yahei"; 
+	font-size: 70px ; 
 	color: #fff;
 }
 .section1 p{
@@ -49,7 +53,7 @@ body {
 }
 .section2 h1 {
 	display: none;
-	font: 70px "Microsoft Yahei"; 
+	font-size: 70px; 
 
 }
 .section2 .personal_details {
@@ -58,7 +62,7 @@ body {
 	height: 70%;
 	list-style-type: none;
 	text-align: left;
-	font: 20px "Microsoft Yahei";
+	font-size: 20px;
 }
 
 .section2 .personal_details li{
@@ -80,7 +84,7 @@ body {
 	height: 70%;
 	width: 50%;
 	text-align: left;
-	font: 16px "Microsoft Yahei";
+	font-size: 16px;
 	line-height: 20px;
 
 }
@@ -125,7 +129,6 @@ body {
 /*为什么coding部分*/
 
 .section4 {
-	font-family: "Microsoft Yahei";
 	text-align: center;
 	color: #054B6B;
 
