@@ -36,9 +36,9 @@ body {
 #main_box {
 	font-family: "Microsoft Yahei";
 }
-.section1 { 
-	text-align: center; 
-	font-size: 70px ; 
+.section1 {
+	text-align: center;
+	font-size: 70px ;
 	color: #fff;
 }
 .section1 p{
@@ -53,7 +53,7 @@ body {
 }
 .section2 h1 {
 	display: none;
-	font-size: 70px; 
+	font-size: 70px;
 
 }
 .section2 .personal_details {
@@ -105,7 +105,7 @@ body {
 	font-size: 80px;
 }
 .section3 h3 {
-	margin-left: -100%;
+	margin: 10px 0px 10px -100%;
 	font-size:30px;
 }
 .section3 a{
@@ -118,7 +118,7 @@ body {
 .section3 div{
 	margin-left: 150%;
 	height: 70%;
-	width: 65%;
+	width: 70%;
 }
 .section3 div p {
 	font-size: 16px;
@@ -151,4 +151,9 @@ body {
 	height: 70%;
 	line-height: 40px;
 	font-size: 18px;
+}
+.section4 .bigfont {
+	font-size: 30px;
+	font-weight: bold;
+	color:#054B60;
 }
